@@ -10,7 +10,6 @@
 }
 
 ul {
-  display: none;
   list-style-type: none;
   border: 1px solid teal;
   /* Match theme */
