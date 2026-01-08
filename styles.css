@@ -1,0 +1,67 @@
+.home-body {
+  background-image: url(images/bg-img.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-welcome {
+  text-align: center;
+}
+
+ul {
+  display: none;
+  list-style-type: none;
+  border: 1px solid teal;
+  /* Match theme */
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  z-index: 1000;
+}
+
+li {
+  border-bottom: 1px solid;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a:hover {
+  color: teal;
+  background-color: #555555;
+
+}
+
+.active {
+  background-color: white;
+  color: red;
+}
+
+.hamburger {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h1 {
+  color: red;
+  font-size: 48px;
+}
