@@ -11,6 +11,7 @@
 
 ul {
   list-style-type: none; 
+  display: none;
   border: 1px solid teal;
   /* Match theme */
   margin: 0;
