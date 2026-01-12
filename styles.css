@@ -76,6 +76,7 @@ table, td {
 
 p {
   background-color: aqua;
+  color: purple;
   width: 50%;
   float: right;
 }
